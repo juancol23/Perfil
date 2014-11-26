@@ -1,4 +1,6 @@
 @import "normalize.styl"
+body
+	background-image url("../img/cafe.jpg")
 .max-height-all
 	max-height 20em !important
 	overflow hidden
@@ -25,9 +27,10 @@ body
 	font-size 16px
 	font-family "Myriad Pro"
 header
-	background: rgb(95, 95, 95)
+	background rgba(15, 12, 2, 0.71)	 
 	nav
 		ul
+			cursor pointer
 			padding 0 auto
 			max-height 0px
 			overflow hidden
@@ -55,7 +58,7 @@ header
 section.Section
 	article.Article_Hello
 		padding 1em
-		background #454545
+		background rgba(69, 69, 69, 0.43)
 		color white
 		font-size 1.2em
 		h1.tittle
@@ -66,7 +69,7 @@ section.Section
 			font-size 1.1em
 	article.Article_About
 		padding 0.6em 1em
-		background rgba(255, 255, 255, 0.61)
+		background rgba(255,255,255,0.61)
 		color #171717
 		h1.tittle
 			text-align center
@@ -86,7 +89,7 @@ section.Section
 			cursor pointer
 			h1.tittle
 				margin 0
-				background rgba(37, 36, 36, 0.9)
+				background rgba(110, 79, 79, 0.76)
 				font-size 1.2em
 				text-align center
 				cursor pointer
@@ -96,17 +99,18 @@ section.Section
 				font-size 3em
 				color white
 			p.desc_1
-				margin 0em 1em			 
-			&:hover
-				transition: 0.4s
-				background white
+				margin 0em 1em	
+				background: white
+			// &:hover
+			// 	transition: 0.4s
+			// 	background white
 		.Bottom_Contactame
-			background #939393
+			background white
 			cursor pointer
 			border-bottom 3px solid white
 			h1.tittle
 				margin 0
-				background rgba(37, 36, 36, 0.9)
+				background rgba(200, 32, 32, 0.76)
 				font-size 1.2em
 				text-align center
 				cursor pointer
@@ -117,16 +121,17 @@ section.Section
 				color white
 			p.desc_2
 				margin 0em 1em	
-			&:hover
-				transition: 0.4s
-				background #27B198
+				background white
+			// &:hover
+			// 	transition: 0.4s
+			// 	background #27B198
 		.Bottom_Redes_Sociales
-			background #939393
+			background white
 			cursor pointer
 			border-bottom 3px solid white
 			h1.tittle
 				margin 0
-				background rgba(37, 36, 36, 0.9)
+				background rgba(200, 32, 32, 0.76)
 				font-size 1.2em
 				text-align center
 				cursor pointer
@@ -137,9 +142,10 @@ section.Section
 				color white
 			p.desc_3
 				margin 0em 1em	
+				background white
 			
 footer.Footer
-	background rgba(29, 110, 139, 0.9)
+	background rgba(29, 110, 139, 0.72)
 	font-size 1.2em
 	text-align center
 	cursor pointer
@@ -181,8 +187,74 @@ footer.Footer
 		display: none
 		transition: 0.6s
 
-	
-			
-	
-	
- 
+	section.Section
+		// article.Article_Hello
+		// 	padding 1em
+		// 	background rgba(69, 69, 69, 0.43)
+		// 	color white
+		// 	font-size 1.2em
+		// 	h1.tittle
+		// 		text-align center
+		// 		margin 0
+		// 	p.desc
+		// 		text-align center
+		// 		font-size 1.1em
+		// article.Article_About
+		// 	padding 0.6em 1em
+		// 	background rgba(255,255,255,0.61)
+		// 	color #171717
+		// 	h1.tittle
+		// 		text-align center
+		// 		margin 0
+		// 	p.desc
+		// 		text-align justify
+		// 		font-size 1.1em
+		// 		margin-bottom: 0em
+		// article.Article_Social
+		// 	padding 1em	 
+		// 	background #939393
+
+		article.Article_opcion
+			.Bottom_Proyecto
+				display inline-block
+				width 32%
+				h1.tittle
+					font-size 2em
+				p.desc_1
+					margin 0em 1em	
+					background: white
+				// &:hover
+				// 	transition: 0.4s
+				// 	background white
+			.Bottom_Contactame
+				display inline-block
+				width 32%
+				h1.tittle
+					margin 0
+					background rgba(200, 32, 32, 0.76)
+					font-size 1.2em
+					text-align center
+					cursor pointer
+					color white
+					font-family cursive
+					text-align center
+					font-size 2em
+					color white
+				p.desc_2
+					margin 0em 1em	
+					background white
+				// &:hover
+				// 	transition: 0.4s
+				// 	background #27B198
+			.Bottom_Redes_Sociales
+				display inline-block
+				width 34%
+				h1.tittle
+					font-size 2em
+				// &:hover
+				// 	transition: 0.4s
+				// 	background #27B198
+				
+		
+		
+	 
