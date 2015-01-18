@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-wkpu3j');
+	src:url('../fonts/icomoon.eot?#iefix-wkpu3j') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-wkpu3j') format('woff'),
+		url('../fonts/icomoon.ttf?-wkpu3j') format('truetype'),
+		url('../fonts/icomoon.svg?-wkpu3j#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\e600";
+}
+
+.icon-instagram:before {
+	content: "\e601";
+}
+
+.icon-twitter:before {
+	content: "\e602";
+}
+
+.icon-github:before {
+	content: "\e603";
+}
+
+.icon-tumblr:before {
+	content: "\e604";
+}
+
+.icon-skype:before {
+	content: "\e605";
+}
+
+.icon-pinterest:before {
+	content: "\e606";
+}
+
